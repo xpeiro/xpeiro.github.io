@@ -4,8 +4,6 @@ No implementation found for style `subfig'
 No implementation found for style `hyperref'
 No implementation found for style `lmodern'
 
-Usermanual3.tex is newer than Usermanual3.aux: Please rerun latex.
-
 ? brace missing for \
 
 Substitution of arg to newlabelxx delayed.
@@ -15,6 +13,22 @@ redefining command \
 ? brace missing for \oldcontentsline
 
 ? brace missing for \oldnewlabel
-
-Usermanual3.tex is newer than Usermanual3.lof: Please rerun latex.
 Unrecognized option  to \includegraphics
+
+No number for "TérminaldeVisualStudio2012."
+
+No number for "AccederalaconfiguracióndelavariblePATH."
+
+No number for "EdicióndelavariblePATH."
+
+No number for "Interfazgráficadeusuario."
+
+No number for "InterfazGráficadeUsuario"
+
+No number for "Radiobuttonsparaseleccióndemodo"
+
+No number for "BarradeMenú"
+
+No number for "SeleccióndemodoDemo:Botonesdesplegables"
+
+No number for "ModificacióndeKheperaSimGui.pro"
