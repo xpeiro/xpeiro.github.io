@@ -1,0 +1,295 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<!--Converted with LaTeX2HTML 2008 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Configurar archivo Makefile</TITLE>
+<META NAME="description" CONTENT="Configurar archivo Makefile">
+<META NAME="keywords" CONTENT="Usermanual3">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2008">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="Usermanual3.css">
+
+<LINK REL="next" HREF="node16.html">
+<LINK REL="previous" HREF="node14.html">
+<LINK REL="up" HREF="node14.html">
+<LINK REL="next" HREF="node16.html">
+</HEAD>
+
+<BODY >
+
+<DIV CLASS="navigation"><!--Navigation Panel-->
+<A NAME="tex2html287"
+  HREF="node16.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html283"
+  HREF="node14.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html277"
+  HREF="node14.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A> 
+<A NAME="tex2html285"
+  HREF="node1.html">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents" SRC="contents.png"></A>  
+<BR>
+<B> Siguiente:</B> <A NAME="tex2html288"
+  HREF="node16.html">Configurar el PATH</A>
+<B> Subir:</B> <A NAME="tex2html284"
+  HREF="node14.html">Configuración del entorno</A>
+<B> Anterior:</B> <A NAME="tex2html278"
+  HREF="node14.html">Configuración del entorno</A>
+ &nbsp; <B>  <A NAME="tex2html286"
+  HREF="node1.html">&#205;ndice General</A></B> 
+<BR>
+<BR></DIV>
+<!--End of Navigation Panel-->
+
+<H3><A NAME="SECTION00043100000000000000">
+Configurar archivo Makefile</A>
+</H3>
+Para llevar a cabo el paso 3.3.1., ofrecemos 3 opciones diferentes.
+
+<P>
+
+<P><P>
+<BR>
+OPCIÓN 1:<A NAME="op1"></A>
+<P>
+
+<P><P>
+<BR>
+
+<P>
+
+<UL>
+<LI>Abrir ventana de comandos de Visual Studio 2012, el cual debe haber sido instalado previamente, según la sección <A HREF="node12.html#visualstudio">3.1</A>.
+
+<P>
+</LI>
+<LI>Cambiar directorio de trabajo al directorio donde previamente se ha descomprimido la carpeta Qt 5.2.1., sección <A HREF="node13.html#qt">3.2</A> de ese manual.
+
+<P>
+<SPAN  CLASS="textbf">Nota:</SPAN> Para movernos por el terminal, utilizaremos los siguientes comandos, como se puede observar en la figura <A HREF="#terminal1">2</A>:
+
+<P>
+'cd ..': cambiar directorio actual por el inmediantamente superior.
+<BR>'dir': listado de directorios dependientes del directorio acual.
+<BR>'cd <SPAN  CLASS="textit">directorio</SPAN>': cambiar directorio actual por <SPAN  CLASS="textit">directorio</SPAN>, que debe ser dependiente del directorio actual.
+<BR>
+<P>
+
+<DIV ALIGN="CENTER"><A NAME="terminal1"></A><A NAME="129"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figura 2:</STRONG>
+Términal de Visual Studio 2012.</CAPTION>
+<TR><TD>
+<DIV ALIGN="CENTER">
+
+</DIV><IMG
+  WIDTH="552" HEIGHT="289" ALIGN="BOTTOM" BORDER="0"
+ SRC="./terminal.png"
+ ALT="Image terminal"></TD></TR>
+</TABLE>
+</DIV>
+
+<P>
+</LI>
+<LI>Una vez situados en el directorio en el que hemos descomprimido Qt 5.2.1., ejecutar los siguiente comandos:
+<BR>
+<P>
+<SPAN  CLASS="textit">configure -platform win32-msvc2012</SPAN>
+<BR>
+<P>
+<SPAN  CLASS="textit">nmake</SPAN> (Puede tardar varias horas.)
+<BR>(Para reducir el tiempo puede usar jom: http://qt-project.org/wiki/jom)
+
+<P>
+</LI>
+</UL>
+
+<P>
+
+<P><P>
+<BR>
+OPCIÓN 2: <A NAME="op2"></A>
+<P>
+
+<P><P>
+<BR>
+	
+<UL>
+<LI>Configurar el PATH para incluir la carpeta <SPAN  CLASS="textit">/VC/bin/</SPAN> de su instalación de Visual Studio 2012:
+<BR>
+<P>
+PATH es la variable del sistema que utiliza el sistema operativo para buscar los ejecutables necesarios desde la línea de comandos o la ventana Terminal.
+<BR>
+La variable del sistema PATH se puede establecer utilizando la utilidad de sistema en el panel de control de Windows o en el archivo de inicio del shell en Linux y Solaris.
+<BR>
+<P>
+Configuración PATH (Windows 8):
+<BR>
+<P>
+Según se indica en la la figura <A HREF="#path1">3</A>:
+<BR>
+Arrastre el cursor a la esquina inferior derecha de la pantalla y acceda a la pestaña de configuración.
+<BR>
+Vaya al Panel de control --Sistema --Configuración avanzada del sistema.
+<BR>
+Una vez en la ventana de Configuración avanzada del sistema, haga clic en variables de entorno.
+<BR>
+En la ventana de variables de entorno, pinche en Variables del sistema, busque PATH y haga clic en él.
+
+<P>
+
+<DIV ALIGN="CENTER"><A NAME="path1"></A><A NAME="141"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figura 3:</STRONG>
+Acceder a la configuración de la varible PATH.</CAPTION>
+<TR><TD>
+<DIV ALIGN="CENTER">
+
+</DIV><IMG
+  WIDTH="553" HEIGHT="336" ALIGN="BOTTOM" BORDER="0"
+ SRC="./config_path.png"
+ ALT="Image config_path"></TD></TR>
+</TABLE>
+</DIV>
+
+<P>
+En la ventana Editar, modifique PATH agregando la ubicación de la clase. Si no dispone del elemento PATH, puede optar por agregar una nueva variable y agregar PATH como el nombre y la ubicación de la clase como valor.
+
+<P>
+
+<DIV ALIGN="CENTER"><A NAME="path2"></A><A NAME="146"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figura 4:</STRONG>
+Edición de la varible PATH.</CAPTION>
+<TR><TD>
+<DIV ALIGN="CENTER">
+
+</DIV><IMG
+  WIDTH="305" HEIGHT="234" ALIGN="BOTTOM" BORDER="0"
+ SRC="./edit_path.png"
+ ALT="Image edit_path"></TD></TR>
+</TABLE>
+</DIV>
+
+<P>
+Finalmente, incluya la ruta completa en la variable PATH, <SPAN  CLASS="textit">C:/Program Files (x86)/Microsoft Visual Studio 11.0/VC/bin</SPAN> en nuestro caso, como se muestra en la figura <A HREF="#path2">4</A>.
+
+<P>
+
+<P><P>
+<BR>
+Una vez configurado el PATH:
+
+<P>
+</LI>
+<LI>Entrar en carpeta de código fuente de Qt con una ventana de comandos (cmd.exe).
+
+<P>
+</LI>
+<LI>Ejecutar los siguentes comandos:
+
+<P>
+<SPAN  CLASS="textit">configure -platform win32-msvc2012</SPAN>
+<BR>
+<P>
+<SPAN  CLASS="textit">nmake</SPAN> (Puede tardar varias horas.)
+<BR>(Para reducir el tiempo puede usar jom: http://qt-project.org/wiki/jom)
+	
+</LI>
+</UL>
+
+<P>
+
+<P><P>
+<BR>
+OPCIÓN 3:
+
+<P>
+
+<P><P>
+<BR>
+	
+<UL>
+<LI>Abrir ventana de comandos (<SPAN  CLASS="textit">cmd.exe</SPAN> figura <A HREF="#ejecutar">5</A>) y ejecutar vsvars32.bat (localización: Common7/Tools/ de su instalación de VS2012.
+<BR>
+<P>
+
+<DIV ALIGN="CENTER"><A NAME="ejecutar"></A><A NAME="438"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figura 5:</STRONG>
+Ejecutar <SPAN  CLASS="textit">cmd.exe</SPAN>.</CAPTION>
+<TR><TD>
+<DIV ALIGN="CENTER">
+
+</DIV><IMG
+  WIDTH="408" HEIGHT="210" ALIGN="BOTTOM" BORDER="0"
+ SRC="./ejecutar.png"
+ ALT="Image ejecutar"></TD></TR>
+</TABLE>
+</DIV>
+
+<P>
+<SPAN  CLASS="textbf">Nota:</SPAN>Se puede copiar a otra carpeta por comodidad. Debe volver a ejecutarse cada vez que se ejecuta cmd.exe para que funcione.
+
+<P>
+</LI>
+<LI>Situarse en el directorio donde descomprimimos la carpeta de código fuente de Qt. Utilizar los comandos según se explicó en OPCIÓN 1, sección <A HREF="#op1">3.3.1</A>.
+
+<P>
+</LI>
+<LI>Ejecutar (sin comillas):
+
+<P>
+</LI>
+</UL>
+
+<P>
+<SPAN  CLASS="textit">configure -platform win32-msvc2012</SPAN>
+<BR>
+<P>
+<SPAN  CLASS="textit">nmake</SPAN> (Puede tardar varias horas.) 
+<BR>(Para reducir el tiempo puede usar jom: http://qt-project.org/wiki/jom)
+
+<P>
+
+<DIV CLASS="navigation"><HR>
+<!--Navigation Panel-->
+<A NAME="tex2html287"
+  HREF="node16.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html283"
+  HREF="node14.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html277"
+  HREF="node14.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A> 
+<A NAME="tex2html285"
+  HREF="node1.html">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents" SRC="contents.png"></A>  
+<BR>
+<B> Siguiente:</B> <A NAME="tex2html288"
+  HREF="node16.html">Configurar el PATH</A>
+<B> Subir:</B> <A NAME="tex2html284"
+  HREF="node14.html">Configuración del entorno</A>
+<B> Anterior:</B> <A NAME="tex2html278"
+  HREF="node14.html">Configuración del entorno</A>
+ &nbsp; <B>  <A NAME="tex2html286"
+  HREF="node1.html">&#205;ndice General</A></B> </DIV>
+<!--End of Navigation Panel-->
+<ADDRESS>
+Daniel PeirÃ³
+2014-05-16
+</ADDRESS>
+</BODY>
+</HTML>

@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<!--Converted with LaTeX2HTML 2008 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Configuración del PATH</TITLE>
+<META NAME="description" CONTENT="Configuración del PATH">
+<META NAME="keywords" CONTENT="Usermanual3">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2008">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="Usermanual3.css">
+
+<LINK REL="next" HREF="node6.html">
+<LINK REL="previous" HREF="node4.html">
+<LINK REL="up" HREF="node3.html">
+<LINK REL="next" HREF="node6.html">
+</HEAD>
+
+<BODY >
+
+<DIV CLASS="navigation"><!--Navigation Panel-->
+<A NAME="tex2html161"
+  HREF="node6.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next" SRC="next.png"></A> 
+<A NAME="tex2html157"
+  HREF="node3.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up" SRC="up.png"></A> 
+<A NAME="tex2html151"
+  HREF="node4.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous" SRC="prev.png"></A> 
+<A NAME="tex2html159"
+  HREF="node1.html">
+<IMG WIDTH="65" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="contents" SRC="contents.png"></A>  
+<BR>
+<B> Siguiente:</B> <A NAME="tex2html162"
+  HREF="node6.html">Preparar Makefile</A>
+<B> Subir:</B> <A NAME="tex2html158"
+  HREF="node3.html">Instalación y funcionamiento en</A>
+<B> Anterior:</B> <A NAME="tex2html152"
+  HREF="node4.html">Instalación QT 5.2.1</A>
+ &nbsp; <B>  <A NAME="tex2html160"
+  HREF="node1.html">&#205;ndice General</A></B> 
+<BR>
+<BR></DIV>
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00032000000000000000"></A> <A NAME="linux2"></A>
+<BR>
+Configuración del PATH
+</H2>
+
+<P>
+Añadiremos qmake al PATH:
+
+<P>
+
+<P><P>
+<BR>
+Se hará export de la carpeta /bin en el directorio de instalación de Qt 5.2.1, si se ha dejado por defecto escribiremos en terminal:
+
+<P>
+<DIV ALIGN="CENTER">
+<BIG CLASS="XLARGE"><SPAN  CLASS="textsf">	<SPAN ID="hue60"> $ export PATH=$HOME/Qt5.2.1/5.2.1/gcc/bin:$PATH  </SPAN></SPAN>
+
+</BIG></DIV>
+<SPAN  CLASS="textbf">Nota:</SPAN> el nombre /gcc del directorio anterior cambiará según la versión sea de 32 ó 64 bits.
+
+<P>
+
+<P><P>
+<BR>
+El export presenta el inconveniente de que solamente se podrá invocar qmake en el terminal donde lo hemos hecho, sin embargo, una vez realizado queda configurado el archivo Makefile que se utilizará en las siguientes modificaciones.
+
+<P>
+<BR><HR>
+<ADDRESS>
+Daniel PeirÃ³
+2014-05-16
+</ADDRESS>
+</BODY>
+</HTML>
