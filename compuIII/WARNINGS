@@ -1,0 +1,20 @@
+No implementation found for style `fancyhdr'
+No implementation found for style `graphicx'
+No implementation found for style `subfig'
+No implementation found for style `hyperref'
+No implementation found for style `lmodern'
+
+Usermanual3.tex is newer than Usermanual3.aux: Please rerun latex.
+
+? brace missing for \
+
+Substitution of arg to newlabelxx delayed.
+
+redefining command \ 
+
+? brace missing for \oldcontentsline
+
+? brace missing for \oldnewlabel
+
+Usermanual3.tex is newer than Usermanual3.lof: Please rerun latex.
+Unrecognized option  to \includegraphics
