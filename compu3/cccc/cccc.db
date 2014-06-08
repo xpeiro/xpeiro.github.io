@@ -1,0 +1,199 @@
+CCCC_Module@Control@class@
+CCCC_ModExt@Control@class@control.h@7@definition@F???0@LOC:4 COM:1 MVG:0@0@d@
+CCCC_Module@Demo@class@
+CCCC_ModExt@Demo@class@demo.h@7@definition@F???0@LOC:9 COM:1 MVG:0@0@d@
+CCCC_Module@I_Control@class@
+CCCC_ModExt@I_Control@class@i_control.h@9@definition@F??T2@LOC:4 COM:1 MVG:0@2@d@
+CCCC_Module@KheperaSimGUI@class@
+CCCC_ModExt@KheperaSimGUI@class@kheperasimgui.h@12@declaration@????2@LOC:1 COM:0 MVG:0@2@D@
+CCCC_ModExt@KheperaSimGUI@class@kheperasimgui.h@15@definition@????0@LOC:4 COM:0 MVG:0@0@d@
+CCCC_Module@QCloseEvent@@
+CCCC_Module@QMainWindow@@
+CCCC_Module@QString@@
+CCCC_Module@QWidget@@
+CCCC_Module@anonymous@@
+CCCC_Module@bool@@
+CCCC_Module@char@builtin@
+CCCC_ModExt@char@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@double@builtin@
+CCCC_ModExt@double@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@float@builtin@
+CCCC_ModExt@float@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@int@builtin@
+CCCC_ModExt@int@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@long@builtin@
+CCCC_ModExt@long@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@ptrfunc@@
+CCCC_Module@string@@
+CCCC_Module@void@builtin@
+CCCC_ModExt@void@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Member@Control@control@@(int)@
+CCCC_MemExt@Control@control@@(int)@control.cpp@9@definition@F????@LOC:3 COM:1 MVG:1@?@d@
+CCCC_MemExt@Control@control@@(int)@control.h@10@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@Control@interrupt_1@@(int)@
+CCCC_MemExt@Control@interrupt_1@@(int)@control.cpp@15@definition@F????@LOC:3 COM:1 MVG:1@?@d@
+CCCC_MemExt@Control@interrupt_1@@(int)@control.h@11@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@Control@interrupt_2@@(int)@
+CCCC_MemExt@Control@interrupt_2@@(int)@control.cpp@21@definition@F????@LOC:3 COM:1 MVG:1@?@d@
+CCCC_MemExt@Control@interrupt_2@@(int)@control.h@12@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@Control@interrupt_3@@(int)@
+CCCC_MemExt@Control@interrupt_3@@(int)@control.cpp@27@definition@F????@LOC:3 COM:1 MVG:1@?@d@
+CCCC_MemExt@Control@interrupt_3@@(int)@control.h@13@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@Control@interrupt_4@@(int)@
+CCCC_MemExt@Control@interrupt_4@@(int)@control.cpp@33@definition@F????@LOC:3 COM:1 MVG:1@?@d@
+CCCC_MemExt@Control@interrupt_4@@(int)@control.h@14@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@Demo@control@@(int)@
+CCCC_MemExt@Demo@control@@(int)@demo.cpp@11@definition@F????@LOC:20 COM:3 MVG:2@?@d@
+CCCC_MemExt@Demo@control@@(int)@demo.h@10@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@Demo@interrupt_1@@(int)@
+CCCC_MemExt@Demo@interrupt_1@@(int)@demo.cpp@42@definition@F????@LOC:13 COM:1 MVG:2@?@d@
+CCCC_MemExt@Demo@interrupt_1@@(int)@demo.h@11@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@Demo@interrupt_2@@(int)@
+CCCC_MemExt@Demo@interrupt_2@@(int)@demo.cpp@60@definition@F????@LOC:13 COM:1 MVG:2@?@d@
+CCCC_MemExt@Demo@interrupt_2@@(int)@demo.h@12@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@Demo@interrupt_3@@(int)@
+CCCC_MemExt@Demo@interrupt_3@@(int)@demo.cpp@78@definition@F????@LOC:28 COM:7 MVG:3@?@d@
+CCCC_MemExt@Demo@interrupt_3@@(int)@demo.h@13@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@Demo@interrupt_4@@(int)@
+CCCC_MemExt@Demo@interrupt_4@@(int)@demo.cpp@119@definition@F????@LOC:29 COM:2 MVG:3@?@d@
+CCCC_MemExt@Demo@interrupt_4@@(int)@demo.h@14@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@Demo@setRobot@@(int)@
+CCCC_MemExt@Demo@setRobot@@(int)@demo.cpp@155@definition@F????@LOC:14 COM:2 MVG:1@?@d@
+CCCC_MemExt@Demo@setRobot@@(int)@demo.h@16@declaration@F???0@LOC:1 COM:1 MVG:0@0@D@
+CCCC_Member@Demo@setVelocidad@@(int)@
+CCCC_MemExt@Demo@setVelocidad@@(int)@demo.cpp@172@definition@F????@LOC:3 COM:1 MVG:0@?@d@
+CCCC_MemExt@Demo@setVelocidad@@(int)@demo.h@18@declaration@F???0@LOC:1 COM:1 MVG:0@0@D@
+CCCC_Member@I_Control@control@@(int)@
+CCCC_MemExt@I_Control@control@@(int)@i_control.h@12@declaration@F??T0@LOC:1 COM:1 MVG:0@0@D@
+CCCC_Member@I_Control@interrupt_1@@(int)@
+CCCC_MemExt@I_Control@interrupt_1@@(int)@i_control.h@13@declaration@F??T0@LOC:1 COM:1 MVG:0@0@D@
+CCCC_Member@I_Control@interrupt_2@@(int)@
+CCCC_MemExt@I_Control@interrupt_2@@(int)@i_control.h@14@declaration@F??T0@LOC:1 COM:1 MVG:0@0@D@
+CCCC_Member@I_Control@interrupt_3@@(int)@
+CCCC_MemExt@I_Control@interrupt_3@@(int)@i_control.h@15@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@I_Control@interrupt_4@@(int)@
+CCCC_MemExt@I_Control@interrupt_4@@(int)@i_control.h@16@declaration@F??T0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@KheperaSimGUI@KheperaSimGUI@@(QWidget *)@
+CCCC_MemExt@KheperaSimGUI@KheperaSimGUI@@(QWidget *)@kheperasimgui.cpp@21@definition@F????@LOC:10 COM:3 MVG:0@?@d@
+CCCC_Member@KheperaSimGUI@closeEvent@@(QCloseEvent *)@
+CCCC_MemExt@KheperaSimGUI@closeEvent@@(QCloseEvent *)@kheperasimgui.cpp@322@definition@F????@LOC:3 COM:1 MVG:0@?@d@
+CCCC_Member@KheperaSimGUI@codigo_en_hilo@@(ptrfunc)@
+CCCC_MemExt@KheperaSimGUI@codigo_en_hilo@@(ptrfunc)@kheperasimgui.cpp@83@definition@F????@LOC:10 COM:2 MVG:1@?@d@
+CCCC_Member@KheperaSimGUI@conectar@@(string,int)@
+CCCC_MemExt@KheperaSimGUI@conectar@@(string,int)@kheperasimgui.cpp@65@definition@F????@LOC:13 COM:2 MVG:2@?@d@
+CCCC_Member@KheperaSimGUI@iniciar_sim@@(string)@
+CCCC_MemExt@KheperaSimGUI@iniciar_sim@@(string)@kheperasimgui.cpp@43@definition@F????@LOC:17 COM:3 MVG:2@?@d@
+CCCC_Member@KheperaSimGUI@on_actionAyuda_triggered@@()@
+CCCC_MemExt@KheperaSimGUI@on_actionAyuda_triggered@@()@kheperasimgui.cpp@328@definition@F????@LOC:4 COM:0 MVG:0@?@d@
+CCCC_Member@KheperaSimGUI@on_actionMostrar_Output_toggled@@(bool)@
+CCCC_MemExt@KheperaSimGUI@on_actionMostrar_Output_toggled@@(bool)@kheperasimgui.cpp@313@definition@F????@LOC:8 COM:1 MVG:1@?@d@
+CCCC_Member@KheperaSimGUI@on_actionSalir_triggered@@()@
+CCCC_MemExt@KheperaSimGUI@on_actionSalir_triggered@@()@kheperasimgui.cpp@307@definition@F????@LOC:5 COM:1 MVG:0@?@d@
+CCCC_Member@KheperaSimGUI@on_comboBox_2_activated@@(QString)@
+CCCC_MemExt@KheperaSimGUI@on_comboBox_2_activated@@(QString)@kheperasimgui.cpp@237@definition@F????@LOC:16 COM:3 MVG:3@?@d@
+CCCC_Member@KheperaSimGUI@on_comboBox_3_activated@@(const QString)@
+CCCC_MemExt@KheperaSimGUI@on_comboBox_3_activated@@(const QString)@kheperasimgui.cpp@278@definition@F????@LOC:11 COM:1 MVG:1@?@d@
+CCCC_Member@KheperaSimGUI@on_comboBox_activated@@(int)@
+CCCC_MemExt@KheperaSimGUI@on_comboBox_activated@@(int)@kheperasimgui.cpp@291@definition@F????@LOC:15 COM:2 MVG:3@?@d@
+CCCC_Member@KheperaSimGUI@on_controlset_clicked@@()@
+CCCC_MemExt@KheperaSimGUI@on_controlset_clicked@@()@kheperasimgui.cpp@256@definition@F????@LOC:10 COM:1 MVG:0@?@d@
+CCCC_Member@KheperaSimGUI@on_demoset_clicked@@()@
+CCCC_MemExt@KheperaSimGUI@on_demoset_clicked@@()@kheperasimgui.cpp@267@definition@F????@LOC:10 COM:1 MVG:0@?@d@
+CCCC_Member@KheperaSimGUI@on_ejecutar_clicked@@()@
+CCCC_MemExt@KheperaSimGUI@on_ejecutar_clicked@@()@kheperasimgui.cpp@137@definition@F????@LOC:14 COM:5 MVG:2@?@d@
+CCCC_Member@KheperaSimGUI@on_interrupt1_clicked@@()@
+CCCC_MemExt@KheperaSimGUI@on_interrupt1_clicked@@()@kheperasimgui.cpp@198@definition@F????@LOC:8 COM:5 MVG:1@?@d@
+CCCC_Member@KheperaSimGUI@on_interrupt2_clicked@@()@
+CCCC_MemExt@KheperaSimGUI@on_interrupt2_clicked@@()@kheperasimgui.cpp@210@definition@F????@LOC:8 COM:0 MVG:1@?@d@
+CCCC_Member@KheperaSimGUI@on_interrupt3_clicked@@()@
+CCCC_MemExt@KheperaSimGUI@on_interrupt3_clicked@@()@kheperasimgui.cpp@220@definition@F????@LOC:8 COM:0 MVG:1@?@d@
+CCCC_Member@KheperaSimGUI@on_interrupt4_clicked@@()@
+CCCC_MemExt@KheperaSimGUI@on_interrupt4_clicked@@()@kheperasimgui.cpp@228@definition@F????@LOC:8 COM:0 MVG:1@?@d@
+CCCC_Member@KheperaSimGUI@on_parar_clicked@@()@
+CCCC_MemExt@KheperaSimGUI@on_parar_clicked@@()@kheperasimgui.cpp@165@definition@F????@LOC:9 COM:2 MVG:0@?@d@
+CCCC_Member@KheperaSimGUI@on_pausar_clicked@@()@
+CCCC_MemExt@KheperaSimGUI@on_pausar_clicked@@()@kheperasimgui.cpp@177@definition@F????@LOC:15 COM:5 MVG:1@?@d@
+CCCC_Member@KheperaSimGUI@on_sim_clicked@@()@
+CCCC_MemExt@KheperaSimGUI@on_sim_clicked@@()@kheperasimgui.cpp@157@definition@F????@LOC:6 COM:1 MVG:0@?@d@
+CCCC_Member@KheperaSimGUI@refrescar_datos@@()@
+CCCC_MemExt@KheperaSimGUI@refrescar_datos@@()@kheperasimgui.cpp@96@definition@F????@LOC:32 COM:7 MVG:3@?@d@
+CCCC_Member@KheperaSimGUI@~KheperaSimGUI@@()@
+CCCC_MemExt@KheperaSimGUI@~KheperaSimGUI@@()@kheperasimgui.cpp@36@definition@F????@LOC:4 COM:1 MVG:0@?@d@
+CCCC_Member@anonymous@KheperaSimGUI@@(QWidget *)@
+CCCC_MemExt@anonymous@KheperaSimGUI@@(QWidget *)@kheperasimgui.h@21@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@anonymous@closeEvent@@(QCloseEvent *)@
+CCCC_MemExt@anonymous@closeEvent@@(QCloseEvent *)@kheperasimgui.h@65@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@codigo_en_hilo@@(ptrfunc)@
+CCCC_MemExt@anonymous@codigo_en_hilo@@(ptrfunc)@kheperasimgui.h@31@declaration@F????@LOC:1 COM:1 MVG:0@?@D@
+CCCC_Member@anonymous@conectar@@(string,int)@
+CCCC_MemExt@anonymous@conectar@@(string,int)@kheperasimgui.h@29@declaration@F????@LOC:1 COM:1 MVG:0@?@D@
+CCCC_Member@anonymous@main@@(...)@
+CCCC_MemExt@anonymous@main@@(...)@main.cpp@4@definition@F????@LOC:8 COM:3 MVG:1@?@d@
+CCCC_Member@anonymous@on_actionAyuda_triggered@@()@
+CCCC_MemExt@anonymous@on_actionAyuda_triggered@@()@kheperasimgui.h@67@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@on_actionMostrar_Output_toggled@@(bool)@
+CCCC_MemExt@anonymous@on_actionMostrar_Output_toggled@@(bool)@kheperasimgui.h@63@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@on_actionSalir_triggered@@()@
+CCCC_MemExt@anonymous@on_actionSalir_triggered@@()@kheperasimgui.h@61@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@on_comboBox_2_activated@@(QString)@
+CCCC_MemExt@anonymous@on_comboBox_2_activated@@(QString)@kheperasimgui.h@55@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@on_comboBox_3_activated@@(const QString)@
+CCCC_MemExt@anonymous@on_comboBox_3_activated@@(const QString)@kheperasimgui.h@57@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@on_comboBox_activated@@(int)@
+CCCC_MemExt@anonymous@on_comboBox_activated@@(int)@kheperasimgui.h@59@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@on_controlset_clicked@@()@
+CCCC_MemExt@anonymous@on_controlset_clicked@@()@kheperasimgui.h@51@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@on_demoset_clicked@@()@
+CCCC_MemExt@anonymous@on_demoset_clicked@@()@kheperasimgui.h@53@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@on_ejecutar_clicked@@()@
+CCCC_MemExt@anonymous@on_ejecutar_clicked@@()@kheperasimgui.h@35@declaration@F????@LOC:1 COM:1 MVG:0@?@D@
+CCCC_Member@anonymous@on_interrupt1_clicked@@()@
+CCCC_MemExt@anonymous@on_interrupt1_clicked@@()@kheperasimgui.h@43@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@on_interrupt2_clicked@@()@
+CCCC_MemExt@anonymous@on_interrupt2_clicked@@()@kheperasimgui.h@45@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@on_interrupt3_clicked@@()@
+CCCC_MemExt@anonymous@on_interrupt3_clicked@@()@kheperasimgui.h@47@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@on_interrupt4_clicked@@()@
+CCCC_MemExt@anonymous@on_interrupt4_clicked@@()@kheperasimgui.h@49@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@on_parar_clicked@@()@
+CCCC_MemExt@anonymous@on_parar_clicked@@()@kheperasimgui.h@39@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@on_pausar_clicked@@()@
+CCCC_MemExt@anonymous@on_pausar_clicked@@()@kheperasimgui.h@41@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@on_sim_clicked@@()@
+CCCC_MemExt@anonymous@on_sim_clicked@@()@kheperasimgui.h@37@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@refrescar_datos@@()@
+CCCC_MemExt@anonymous@refrescar_datos@@()@kheperasimgui.h@33@declaration@F????@LOC:1 COM:1 MVG:0@?@D@
+CCCC_Member@anonymous@~KheperaSimGUI@@()@
+CCCC_MemExt@anonymous@~KheperaSimGUI@@()@kheperasimgui.h@22@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_UseRel@I_Control@Control@
+CCCC_UseExt@I_Control@Control@control.h@7@inheritance@????0@*@0@I@
+CCCC_UseRel@I_Control@Demo@
+CCCC_UseExt@I_Control@Demo@demo.h@7@inheritance@????0@*@0@I@
+CCCC_UseRel@string@Demo@
+CCCC_UseExt@string@Demo@demo.h@20@has by value@F????@LOC:0 COM:0 MVG:0@?@H@
+CCCC_UseExt@string@Demo@demo.h@21@has by value@F????@LOC:0 COM:0 MVG:0@?@H@
+CCCC_UseRel@QCloseEvent@KheperaSimGUI@
+CCCC_UseExt@QCloseEvent@KheperaSimGUI@kheperasimgui.cpp@322@pass by reference@F????@*@?@p@
+CCCC_UseRel@QMainWindow@KheperaSimGUI@
+CCCC_UseExt@QMainWindow@KheperaSimGUI@kheperasimgui.h@15@inheritance@????0@*@0@I@
+CCCC_UseRel@QString@KheperaSimGUI@
+CCCC_UseExt@QString@KheperaSimGUI@kheperasimgui.cpp@237@pass by value@F????@*@?@P@
+CCCC_UseExt@QString@KheperaSimGUI@kheperasimgui.cpp@278@pass by value@F????@*@?@P@
+CCCC_UseRel@QWidget@KheperaSimGUI@
+CCCC_UseExt@QWidget@KheperaSimGUI@kheperasimgui.cpp@21@pass by reference@?????@*@?@p@
+CCCC_UseRel@bool@KheperaSimGUI@
+CCCC_UseExt@bool@KheperaSimGUI@kheperasimgui.cpp@313@pass by value@F????@*@?@P@
+CCCC_UseRel@ptrfunc@KheperaSimGUI@
+CCCC_UseExt@ptrfunc@KheperaSimGUI@kheperasimgui.cpp@83@pass by value@F????@*@?@P@
+CCCC_UseRel@string@KheperaSimGUI@
+CCCC_UseExt@string@KheperaSimGUI@kheperasimgui.cpp@43@pass by value@F????@*@?@P@
+CCCC_UseExt@string@KheperaSimGUI@kheperasimgui.cpp@65@pass by value@F????@*@?@P@
+CCCC_RejExt@control.cpp@1@<file scope items>@F????@LOC:2 COM:0 MVG:0@?@r@
+CCCC_RejExt@demo.cpp@1@<file scope items>@F????@LOC:4 COM:1 MVG:0@?@r@
+CCCC_RejExt@kheperasimgui.cpp@1@<file scope items>@F????@LOC:4 COM:0 MVG:0@?@r@
+CCCC_RejExt@main.cpp@1@<file scope items>@F????@LOC:1 COM:0 MVG:0@?@r@
+CCCC_RejExt@control.h@1@<file scope items>@F???0@LOC:1 COM:1 MVG:0@0@r@
+CCCC_RejExt@demo.h@1@<file scope items>@F???0@LOC:1 COM:1 MVG:0@0@r@
+CCCC_RejExt@i_control.h@1@<file scope items>@F??T2@LOC:1 COM:1 MVG:0@2@r@
+CCCC_RejExt@kheperasimgui.h@23@I_Control :: * @F???0@LOC:1 COM:0 MVG:0@0@r@
+CCCC_RejExt@kheperasimgui.h@25@slots : void @F???0@LOC:2 COM:1 MVG:0@0@r@
