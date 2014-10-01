@@ -3,24 +3,6 @@
 	
 }
 
-div[id*='column'] {
-	float: left;
-	font-size: 1cm;
-	font-family: monospace;
-	
-	margin: 4px;
-	
-	
-}
 
-li {
-	list-style-type:  none;
-	font-size: inherit;
-	
-}
-
-a {
-	font-size: inherit;
-}
 
 
